@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpFlux Intranet - Serviços nativos de TI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://upflux.net/wp-content/uploads/2023/01/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F297d4230-e3c3-4631-911a-7c9504ffb6c9%2F29e18852-4e3a-428d-9244-b1d381283fcc%2FLogo-Horizontal-Oficial.png?table=block&id=cb834f33-e202-42a2-889e-bb269a5f8d6e&spaceId=297d4230-e3c3-4631-911a-7c9504ffb6c9&width=2000&userId=acb7d73d-b30d-4b43-8c25-e9855dab2e17&cache=v2"
+            alt="Logo UpFlux" class="small-logo">
+        <h1 class="titulo">Nossos Serviços Internos de TI (Gerais)</h1>
+
+        <!-- Abas para navegar entre as páginas -->
+        <div class="tabs">
+            <button class="tablinks" onclick="openTab(event, 'servicos-gerais')">Serviços Gerais</button>
+            <button class="tablinks" onclick="openTab(event, 'suporte-integracao')">Suporte/Integração</button>
+            <button class="tablinks" onclick="openTab(event, 'status-servicos')">Status de Serviços</button>
+        </div>
+
+        <!-- Conteúdo das abas -->
+        <div id="servicos-gerais" class="tabcontent">
+            <div class="servicos">
+                <div class="servico">
+                    <img src="https://qualyti.com.br/wp-content/uploads/2013/10/logo-GLPI-500-blue-1.png"
+                        alt="Ícone GLPI">
+                    <h2>GLPI Plataforma</h2>
+                    <a href="#" class="link-download" target="_blank">Acessar</a>
+                </div>
+                <div class="servico">
+                    <img src="https://qualyti.com.br/wp-content/uploads/2013/10/logo-GLPI-500-blue-1.png"
+                        alt="Ícone GLPI">
+                    <h2>GLPI Fusion</h2>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+                <div class="servico">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-notion-2296040-1911999.png?f=webp"
+                        alt="Ícone Notion">
+                    <h2>Notion</h2>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+                <div class="servico">
+                    <img src="https://static-00.iconduck.com/assets.00/bitdefender-icon-512x512-ztmtpecf.png"
+                        alt="Ícone Bitdefender">
+                    <h2>Bitdefender</h2>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+                <div class="servico">
+                    <img src="https://its.northeastern.edu/files/2023/10/MicrosoftTeams-image.png"
+                        alt="Ícone Teams">
+                    <h2>Teams (new)</h2>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+            </div>
+             <!-- Adicionei a nova div abaixo dos serviços existentes -->
+        <div id="glpi-target-teste" class="box">
+            <div id="visualizar-glpi" class="modal">
+                <div class="modal-content">
+                    <h2>GLPI - Teste e Target</h2>
+                    <p>Link para copiar:</p>
+                    <input type="text" value="http://localhost:62354/now" readonly>
+                    <p>Texto para copiar:</p>
+                    <input type="text" value="https://glpi.upflux.me/glpi/plugins/fusioninventory" readonly>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="suporte-integracao" class="tabcontent">
+            <div class="servicos">
+                <div class="servico">
+                    <img src="https://icons.iconarchive.com/icons/kyo-tux/aeon/256/Apps-7-Zip-icon.png"
+                        alt="Ícone 7-Zip">
+                    <h3>7-Zip</h3>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+                <div class="servico">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/KeePass_icon.svg/1200px-KeePass_icon.svg.png"
+                        alt="Ícone Keepass">
+                    <h3>Keepass</h3>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+                <div class="servico">
+                    <img src="https://play-lh.googleusercontent.com/MDDH7WLlwds0bkr-fLZKQ751gWGxbpuAtJGk5TRLFkHYr2rWM_hKHWHPhzVfgQ35YlhM"
+                        alt="Ícone Forticlient">
+                    <h3>Forticlient</h3>
+                    <a href="#" class="link-download" target="_blank">Download</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="status-servicos" class="tabcontent">
+            <h2>Status de Serviços</h2>
+            <div class="status-list">
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://static-00.iconduck.com/assets.00/microsoft-azure-icon-2048x1258-uc8ywy89.png" alt="Logo Microsoft-Azure"></div>
+                    <div class="service-details"><a href="https://azure.status.microsoft/en-us/status" target="_blank">Microsoft Azure</a></div>
+                </div>
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-226029.png" alt="Logo MongoDB"></div>
+                    <div class="service-details"><a href="https://status.mongodb.com/" target="_blank">MongoDB</a></div>
+                </div>
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="Logo Amazon Web Services"></div>
+                    <div class="service-details"><a href="https://health.aws.amazon.com/health/status" target="_blank">Amazon Web Services</a></div>
+                </div>
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-512x412-8rnz6wkz.png" alt="Logo Google Cloud Platform"></div>
+                    <div class="service-details"><a href="https://status.cloud.google.com/" target="_blank">Google Cloud Platform</a></div>
+                </div>
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://static-00.iconduck.com/assets.00/jira-icon-512x512-kkop6eik.png" alt="Logo Jira"></div>
+                    <div class="service-details"><a href="https://status.atlassian.com/" target="_blank">Jira</a></div>
+                </div>
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="Logo Slack"></div>
+                    <div class="service-details"><a href="https://slack-status.com/" target="_blank">Slack</a></div>
+                </div>
+                <div class="status-item">
+                    <div class="service-icon"><img src="https://static-00.iconduck.com/assets.00/notion-icon-1964x2048-p7u8pn3c.png" alt="Logo Notion"></div>
+                    <div class="service-details"><a href="https://status.notion.so/" target="_blank">Notion</a></div>
+                </div>
+                <!-- Adicione os outros serviços aqui -->
+            </div>
+        </div>
+        
+        
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Abre a primeira aba por padrão
+        document.getElementsByClassName("tablinks")[0].click();
+    </script>
+</body>
+
+</html>

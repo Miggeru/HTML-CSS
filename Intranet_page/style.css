@@ -1,0 +1,249 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.small-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    max-height: 80px;
+}
+
+.titulo {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.servico {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    width: 120px;
+}
+
+.servico:hover {
+    transform: scale(1.05);
+}
+
+.servico img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.servico h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.link-download {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8a2be2;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.link-download:hover {
+    background-color: #6a1d99;
+}
+
+/* Estilos para as abas */
+.tabs {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tablinks {
+    background-color: #f2f2f2;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+}
+
+.tablinks.active {
+    background-color: #ccc;
+}
+
+/* Estilos para o conteúdo das abas */
+.tabcontent {
+    display: none;
+}
+
+/* Estilos para o botão ativo */
+.tablinks.active {
+    background-color: #ccc;
+}
+
+#glpi-target-teste {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#glpi-target-teste h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.box-content {
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centralize o formulário na página */
+}
+
+/* Adicione este estilo para melhorar a aparência do formulário */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.secao {
+    margin-top: 40px;
+}
+
+.secao h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.secao .servicos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.secao .servico {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    width: 120px;
+}
+
+.secao .servico img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.secao .servico h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.secao .link-download {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8a2be2;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.secao .link-download:hover {
+    background-color: #6a1d99;
+}
+
+.titulo2 {
+    color: #8a2be2;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a lista de serviços na aba "Status de Serviços" */
+.status-list {
+    margin-top: 20px;
+}
+
+.status-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.service-icon {
+    margin-right: 10px;
+}
+
+.service-icon img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+}
+
+.service-details a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.service-details a:hover {
+    color: #8a2be2;
+}
